@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333333;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+/* container utama */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid #999999;
+    background-color: #ffffff;
+}
+
+/* 1. header */
+header {
+    background-color: #ffd1dc;
+    color: #333333;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #999999;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+/* 2. nav, logo dikiri, menu dikanan */
+nav {
+    background-color: #d0f0c0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #999999;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-links li a {
+    color: #333333;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    background-color: #ffb6c1;
+}
+
+/* 3. section, grid untuk article dan aside) */
+section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    padding: 20px;
+    background-color: #e6e6fa;
+}
+
+/* article */
+article {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #999999;
+}
+
+article h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+}
+
+/* tabel data */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #999999;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+}
+
+th {
+    background-color: #ffd1dc;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+/* aside */
+aside {
+    background-color: #fffacd;
+    padding: 15px;
+    border: 1px solid #999999;
+}
+
+aside h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 4px;
+}
+
+aside ul {
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+aside p {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+/* 4. footer */
+footer {
+    background-color: #d8bfd8;
+    color: #333333;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    border-top: 2px solid #999999;
+}

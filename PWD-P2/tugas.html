@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempat Tinggal Mahasiswa</title>
+</head>
+<body>
+    <form method="post" action="#">
+         <table>
+            <tr>
+                <td>NAMA</td>
+                <td>:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>NPM</td>
+                <td>:</td>
+                <td><input type="text" name="npm"></td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td>:</td>
+                <td>
+                    <select name="kelas">
+                        <option>--pilih kelas--</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea input type="text" name="alamat" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>Kecamatan</td>
+                <td>:</td>
+                <td><input type="text" name="Kecamatan"></td>
+            </tr>
+            <tr>
+                <td>Kabupaten/Kotamadya</td>
+                <td>:</td>
+                <td><input type="text" name="kab"></td>
+            </tr>
+            <tr>
+                <td>Provinsi</td>
+                <td>:</td>
+                <td><input type="text" name="Prov"></td>
+            </tr>
+            <tr>
+                <td>Kode Pos</td>
+                <td>:</td>
+                <td><input type="text" name="kdpos"></td>
+            </tr>
+            
+            
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    Pia <input type="radio"name="gender" value="pria">
+                    Wanita<input type="radio"name="gender" value="pria">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Bahasa Pemrograman</td>
+                <td>:</td>
+                <td><input type="checkbox" name="matkul" id="cpp">C/C++
+                <td><input type="checkbox" name="matkul" id="gl">Go Lang
+                <td><input type="checkbox" name="matkul" id="phyton">Phyton
+                <td><input type="checkbox" name="matkul" id="lainnya">Lainnya
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" name="matkul" id="php">PHP
+                <td><input type="checkbox" name="matkul" id="js">Javascript
+                <td><input type="checkbox" name="matkul" id="rb">Ruby
+            </tr>
+            <tr>
+                <td>Kegiatan</td>
+                <td>:</td>
+                <td><input type="checkbox" name="ormw" id="ukm">ORganisasi Kemahasiswaan
+                <td><input type="checkbox" name="ormw" id="olahraga">Bidang Olahraga
+                <td><input type="checkbox" name="ormw" id="lain">Lainnya
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" name="ormw" id="ormek">Organisasi Di Luar Kampus
+                <td><input type="checkbox" name="ormw" id="seni">Bidang Seni
+                </td>
+            </tr>
+        </table>
+        <input type="submit">
+        <input type="reset" name="cancle">
+    </form>
+</body>
+</html>

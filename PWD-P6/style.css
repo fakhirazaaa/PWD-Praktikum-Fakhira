@@ -1,0 +1,37 @@
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: 1px solid #666;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+table th,
+table td {
+    border: 1px solid #666;
+    padding: 1px 4px;
+    min-width: 18px;
+    text-align: left;
+}
+
+table th.judul {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: normal;
+}
+
+table th.hijau {
+    background-color: #00ff00;
+    color: #000000;
+    font-weight: normal;
+}
+
+table td.kuning {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+table td.biru {
+    background-color: #00ffff;
+    color: #000000;
+}
